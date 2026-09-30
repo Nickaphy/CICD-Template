@@ -1,4 +1,4 @@
-name: CD - CICD
+name: CD
 
 on:
   push:
