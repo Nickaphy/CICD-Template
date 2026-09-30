@@ -1,7 +1,6 @@
 services:
   CICD_TEST:
-  {your-containername}:
-    image: ghcr.io/{nickaphy}/{ghcr.io/nickaphy/cicdovelse}:latest
+    image: ghcr.io/nickaphy/cicdovelse:latest
     restart: unless-stopped
     ports:
      - 8001:8001
